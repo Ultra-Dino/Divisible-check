@@ -1,0 +1,13 @@
+while True: 
+
+ dividend=int(input('Enter Dividend.'))
+ divisor=int(input('Enter Divisor.'))
+ quotient=int(dividend/divisor)
+ print('Quotient is',quotient)
+ remainder=dividend%divisor
+ print('Remainder is',remainder)
+ print(quotient,'r',remainder)
+ if remainder==0:
+  print('Your number is divisible.')
+ else:
+  print('Your number is not divisible')
